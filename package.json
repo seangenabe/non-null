@@ -1,0 +1,27 @@
+{
+  "name": "@seangenabe/nn",
+  "version": "1.0.0",
+  "description": "TypeScript helper. Assert if a value is neither null nor undefined.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^9.3.0"
+  },
+  "scripts": {
+    "test": "exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seangenabe/nn.git"
+  },
+  "keywords": [
+    "assert",
+    "typescript"
+  ],
+  "author": "Sean Genabe <seangenabe@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seangenabe/nn/issues"
+  },
+  "homepage": "https://github.com/seangenabe/nn#readme"
+}
