@@ -1,7 +1,7 @@
 const assert = require('assert')
 
-function nn(arg) {
-  assert(arg != null, `arg must neither be null nor undefined.`)
+function nn(arg, message) {
+  assert(arg != null, message || `arg must neither be null nor undefined.`)
   return arg
 }
 
