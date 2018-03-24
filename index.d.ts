@@ -1,1 +1,1 @@
-export default function <T = any>(arg?: T | null, message?: string): T
+export default function nn<T = any>(arg?: T | null, message?: string): T
