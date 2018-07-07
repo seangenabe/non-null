@@ -1,9 +1,10 @@
 const assert = require('assert')
 
-function nn(arg, message) {
+function nonNull(arg, message) {
   assert(arg != null, message || `arg must neither be null nor undefined.`)
   return arg
 }
 
-module.exports = nn
-module.exports.default = nn
+module.exports = nonNull
+module.exports.default = nonNull
+module.exports.nn = nonNull

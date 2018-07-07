@@ -1,1 +1,5 @@
-export default function nn<T = any>(arg?: T | null, message?: string): T
+function nonNull<T = any>(arg?: T | null, message?: string): T
+
+export default nonNull
+export = nonNull
+export { nonNull as nn }

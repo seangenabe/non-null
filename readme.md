@@ -9,7 +9,11 @@ import nn from '@seangenabe/nn'
 ```
 
 ```typescript
-export default function <T = any>(arg?: T): T
+function nonNull<T = any>(arg?: T | null, message?: string): T
+
+export default nonNull
+export = nonNull
+export { nonNull as nn }
 ```
 
 Assert if a value is neither null nor undefined using the `assert` module. Returns the value.
