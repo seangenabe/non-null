@@ -1,11 +1,11 @@
-## nn
+## non-null
 
 TypeScript helper. Assert if a value is neither null nor undefined.
 
 ## Usage
 
 ```typescript
-import nn from '@seangenabe/nn'
+import nonNull from 'non-null'
 ```
 
 ```typescript
